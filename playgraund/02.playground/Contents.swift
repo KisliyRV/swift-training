@@ -16,11 +16,11 @@ print("Int = ", i)
 
 // Часть 2
 
-let summInt : Int = Int(d) + Int(f) + i
+let summInt = Int(d) + Int(f) + i
 print("Сумма Int + Float + Double = ", summInt)
-let summFloat : Float = Float(d) + f + Float(i)
+let summFloat = Float(d) + f + Float(i)
 print("Сумма Float + Double + Int = ", summFloat)
-let summDouble : Double = d + Double(f) + Double(i)
+let summDouble = d + Double(f) + Double(i)
 print("Сумма Double + Float + Int = ", summDouble)
 
 // Часть 3
